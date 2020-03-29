@@ -1,6 +1,5 @@
 package com.forezp.examplerpcserver.api;
 
-
 import com.forezp.examplerpclib.lib.IGreeting;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;

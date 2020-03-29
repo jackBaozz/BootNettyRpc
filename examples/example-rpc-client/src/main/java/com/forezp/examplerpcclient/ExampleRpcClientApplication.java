@@ -1,5 +1,6 @@
 package com.forezp.examplerpcclient;
 
+
 import com.forezp.examplerpclib.lib.IGreeting;
 import io.github.forezp.netty.rpc.core.annotation.EnableNettyRpc;
 
