@@ -13,7 +13,7 @@ public class Greeting implements IGreeting {
 
     @Override
     public String sayHello(String name) {
-        System.out.println("server: Client message received {"+name+"}");
+        System.out.println("server: Client message received {" + name + "}");
         return "hi " + name;
     }
 

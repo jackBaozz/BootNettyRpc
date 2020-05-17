@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ExampleRpcClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run( ExampleRpcClientApplication.class, args );
+        SpringApplication.run(ExampleRpcClientApplication.class, args);
     }
 
     @Autowired
@@ -36,8 +36,8 @@ public class ExampleRpcClientApplication {
     public RespDTO test() throws Exception {
         // IGreeting invoker = (IGreeting) Invoker.invoke( IGreeting.class );
         //   Object result = invoker.sayHello( "sww" );
-        String resuult = greeting.sayHello( "miya" );
-        return RespDTO.success( resuult );
+        String resuult = greeting.sayHello("miya");
+        return RespDTO.success(resuult);
     }
 
 

@@ -8,6 +8,6 @@ package com.forezp.localrpcserver.api;
  **/
 public interface IGreeting {
 
-     String sayHello(String name);
+    String sayHello(String name);
 
 }

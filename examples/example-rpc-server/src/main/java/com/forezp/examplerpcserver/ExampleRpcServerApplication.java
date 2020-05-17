@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ExampleRpcServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run( ExampleRpcServerApplication.class, args );
+        SpringApplication.run(ExampleRpcServerApplication.class, args);
     }
 
 

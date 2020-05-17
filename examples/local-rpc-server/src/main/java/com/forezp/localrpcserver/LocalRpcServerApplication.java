@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LocalRpcServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run( LocalRpcServerApplication.class, args );
+        SpringApplication.run(LocalRpcServerApplication.class, args);
     }
 
     @GetMapping("/test")

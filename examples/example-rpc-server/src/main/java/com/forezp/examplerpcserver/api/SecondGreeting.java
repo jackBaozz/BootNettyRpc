@@ -11,10 +11,10 @@ import org.springframework.stereotype.Service;
  * @create 2018-05-21
  **/
 @Service
-@Primary
-public class Greeting implements IGreeting {
+//@Primary
+public class SecondGreeting implements IGreeting {
     @Override
     public String sayHello(String name) {
-        return "hi[default] " + name;
+        return "hi[Second] " + name;
     }
 }

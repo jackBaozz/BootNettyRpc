@@ -1,12 +1,14 @@
 server:
   port: 7001
 
-netty.server.name: server
-netty.server.port: 6001
-netty.server.pool.coresize: 50
-netty.server.pool.maxsize: 100
 
 netty:
+  server:
+    name: server
+    pool:
+      coresize: 50
+      maxsize: 100
+    port: 6001
   clients:
     - name: server1
       host: localhost
@@ -15,7 +17,8 @@ netty:
       host: localhost
       port: 6002
   eureka:
-   enable: true
+    enable: true
+
 
 eureka:
   client:
